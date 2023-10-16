@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compound interest calculator</title>
+    <link rel="stylesheet" href="assets/CSS/style.css">
+</head>
+    <body>
+        <main id="container">
+            <div id="calculator">
+                <h2>Compound interest calculator</h2>
+                <div id="input_box">
+                    <div class="input-field">
+                        <label for="value">Initial Value(Capital)</label>
+                        <input type="number" id="value">
+                    </div>
+
+                    <div class="input-field">
+                        <label for="fee">Monthly Interest Rate MIR:</label>
+                        <input type="number" id="fee">
+                    </div>
+                    <div class="input-field">
+                        <label for="time">Yield time MIR</label>
+                        <input type="number" id="time">
+                    </div>
+                    <div id="result">
+                        <h4>Result</h4>
+                        <span id="total">
+                            € 0,00
+                        </span>
+                    </div>
+                </div>
+                    <Button id="calculate">calculate</Button>
+            </div>
+        </main>
+        <script type="text/JavaScript" src="assets/JavaScript/Script.js"></script>
+    </body>
+</html>
